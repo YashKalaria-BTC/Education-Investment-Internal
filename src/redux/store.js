@@ -1,7 +1,7 @@
-import {createStore, applyMiddleware} from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import {logger} from 'redux-logger';
-import {persistStore, persistReducer} from 'redux-persist';
+import { logger } from 'redux-logger';
+import { persistStore, persistReducer } from 'redux-persist';
 import storage from '@react-native-community/async-storage';
 // import storage from 'redux-persist/es/storage'; // defaults to localStorage for web and AsyncStorage for react-native
 
@@ -22,5 +22,5 @@ export default (initialState = {}) => {
 
   const persistor = persistStore(store);
 
-  return {store, persistor};
+  return { store, persistor };
 };

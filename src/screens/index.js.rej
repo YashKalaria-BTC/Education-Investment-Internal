@@ -1,0 +1,13 @@
+diff a/src/screens/index.js b/src/screens/index.js	(rejected hunks)
+@@ -1,2 +1,2 @@
+-import React from 'react'
+-import { Text } from 'react-native'
++import React from 'react';
++import {Text} from 'react-native';
+@@ -4 +4 @@ import { Text } from 'react-native'
+-const Home = () => <Text>Hello World</Text>
++const Home = () => <Text>Hello World</Text>;
+@@ -6 +6 @@ const Home = () => <Text>Hello World</Text>
+-export default Home
+\ No newline at end of file
++export default Home;
