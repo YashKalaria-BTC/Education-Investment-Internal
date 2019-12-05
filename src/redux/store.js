@@ -3,11 +3,8 @@ import thunkMiddleware from 'redux-thunk';
 import { logger } from 'redux-logger';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from '@react-native-community/async-storage';
+import rootReducer from '../reducers/index';
 // import storage from 'redux-persist/es/storage'; // defaults to localStorage for web and AsyncStorage for react-native
-
-const rootReducer = () => {
-  return null;
-};
 
 export default (initialState = {}) => {
   const persistConfig = {
