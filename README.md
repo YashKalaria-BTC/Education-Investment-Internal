@@ -1,1 +1,1 @@
-# Education-Investment-Internal
+# React Native App Setup
